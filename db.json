@@ -1,0 +1,4589 @@
+{
+  "users": [
+    {
+      "email": "jdoe@fictitiouswm.com",
+      "password": "$2a$10$pALbfsaOCje9zFubXZokIeBv.jipsxE76fZ5r82Ul81/dhqjsoMjG",
+      "name": "John Doe",
+      "companyId": "6de54178-883d-4861-8d89-14f3a556fb0a",
+      "type": "partner",
+      "id": 2
+    },
+    {
+      "email": "richierichardson@outlook.com",
+      "password": "$2a$10$l8ZAuBdulDtVo55aHr6kXujaiJOnb9LCm7e9aIqYE.AIlyL4pOsdy",
+      "name": "Richie Richardson",
+      "companyId": "6de54178-883d-4861-8d89-14f3a556fb0a",
+      "type": "client",
+      "id": 3
+    },
+    {
+      "email": "dbevilaqua@beehus.com.br",
+      "password": "$2a$10$2gQ0k1JSVWtfOhI8DOreNe6CD0KUdoLEHCLcE/mlncGgggu5p4uAe",
+      "name": "Diego Bevilaqua",
+      "companyId": "a511a5a7-67dd-4f2f-874d-486d868df8b3",
+      "id": 1
+    }
+  ],
+  "companies": [
+    {
+      "id": "6de54178-883d-4861-8d89-14f3a556fb0a",
+      "name": "Fictitious Wealth Management",
+      "mainContact": {
+        "name": "John Doe",
+        "role": "Arquiteto Frontend",
+        "email": "jdoe@fictitiouswm.com"
+      }
+    },
+    {
+      "id": "a511a5a7-67dd-4f2f-874d-486d868df8b3",
+      "name": "BeeHus Tecnologia",
+      "mainContact": {
+        "name": "Diego Bevilaqua",
+        "role": "Arquiteto Frontend",
+        "email": "dbevilaqua@beehus.com.br"
+      }
+    }
+  ],
+  "positions": [
+    {
+      "id": "1",
+      "clientId": "3",
+      "companyId": "6de54178-883d-4861-8d89-14f3a556fb0a",
+      "date": "2023-07-01T00:00:00.000Z",
+      "securities": [
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "FRYU4",
+          "netValue": 1475208.98
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "BQHJ4",
+          "netValue": 7415435.28
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "FSMS13",
+          "netValue": 8539491.19
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "VDPP79",
+          "netValue": 708379.07
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "RFFL91",
+          "netValue": 4108729.89
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "AHMS66",
+          "netValue": 4110815.04
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "JFHN24",
+          "netValue": 8623337.63
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "SXOT8",
+          "netValue": 8264569.48
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "CBNX9",
+          "netValue": 9315314.73
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "NUFD28",
+          "netValue": 697880.02
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "EVSA8",
+          "netValue": 2762501.2
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "WSYD2",
+          "netValue": 4738979.52
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "RRIH1",
+          "netValue": 2624981.95
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "MYOG57",
+          "netValue": 2722745.44
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "DILG7",
+          "netValue": 7194097.18
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "YEQR71",
+          "netValue": 3871121.21
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "SOIA12",
+          "netValue": 9981787.73
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "DYTT9",
+          "netValue": 6003536.63
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "IHMZ7",
+          "netValue": 5960832.96
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "SCSB8",
+          "netValue": 8026976.27
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "FGEK3",
+          "netValue": 8090286.29
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "XVQR21",
+          "netValue": 1239740.57
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "VQWO7",
+          "netValue": 2057191.71
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "UEZC9",
+          "netValue": 4647688.71
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "KVAG62",
+          "netValue": 2529974.34
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "FEEH12",
+          "netValue": 7324242.04
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "WSTM65",
+          "netValue": 2843978.47
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "LLPN7",
+          "netValue": 3405284.66
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "RSZU8",
+          "netValue": 4052747.58
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "DCTL29",
+          "netValue": 6776943.04
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "JDMJ9",
+          "netValue": 6151804.8
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "DASO39",
+          "netValue": 7776375.7
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "USGF7",
+          "netValue": 2423650.36
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "LHXL4",
+          "netValue": 5131414.53
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "HPGN51",
+          "netValue": 5340683.8
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "WEMK31",
+          "netValue": 4647465.09
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "DVZU6",
+          "netValue": 4084108.64
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "IELY48",
+          "netValue": 7336259.64
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "NZCC81",
+          "netValue": 5889822.86
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "GUSF9",
+          "netValue": 9096353.12
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "KWJC7",
+          "netValue": 5719852.38
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "EZRJ25",
+          "netValue": 966917.72
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "IVYO43",
+          "netValue": 2317171.15
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "IMTN79",
+          "netValue": 284284.02
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "ZUCE2",
+          "netValue": 8400075.36
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "AAQK78",
+          "netValue": 9630281.53
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "YNPX97",
+          "netValue": 2020949.68
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "UOVO7",
+          "netValue": 3150710.87
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "TCVU83",
+          "netValue": 457052.62
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "SKBP1",
+          "netValue": 9295990.03
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "SNAW3",
+          "netValue": 2360758.2
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "EPWD18",
+          "netValue": 1638387.87
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "XDAA3",
+          "netValue": 205557.52
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "LYLE14",
+          "netValue": 5222994.72
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "WVWW1",
+          "netValue": 3411276.19
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "XHRP6",
+          "netValue": 293805.06
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "DKTM71",
+          "netValue": 7711893.52
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "JOAW2",
+          "netValue": 173428.19
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "KQYF37",
+          "netValue": 3228052.04
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "MJYX41",
+          "netValue": 1201967.7
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "RQQO19",
+          "netValue": 4563678.25
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "YGBP41",
+          "netValue": 6807225.1
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "MTWG74",
+          "netValue": 5189147.03
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "SCLR62",
+          "netValue": 7843828.27
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "RMFP1",
+          "netValue": 2700529.53
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "BCBU69",
+          "netValue": 1758586.74
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "OLMP83",
+          "netValue": 2581973.17
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "MHXM45",
+          "netValue": 5342454.86
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "ZCTO6",
+          "netValue": 7013267.23
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "RFWR2",
+          "netValue": 6432610.96
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "CDCU21",
+          "netValue": 1369141.86
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "VLYJ3",
+          "netValue": 8636009.51
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "NSVO64",
+          "netValue": 3083695.92
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "BBOE63",
+          "netValue": 3472952.32
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "FWTS92",
+          "netValue": 1613950.54
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "YXTZ1",
+          "netValue": 3002662.23
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "FLUC24",
+          "netValue": 1905181.25
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "QKAL6",
+          "netValue": 3217060.37
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "CVDF1",
+          "netValue": 4200176.59
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "RYDN97",
+          "netValue": 9092273.39
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "FFMY8",
+          "netValue": 9177039.03
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "ZXZC99",
+          "netValue": 1576933.14
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "KYVT44",
+          "netValue": 4842009.04
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "XXFM61",
+          "netValue": 7201441.17
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "PGOT3",
+          "netValue": 2526031.24
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "OOPZ6",
+          "netValue": 2823351.14
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "ULTW7",
+          "netValue": 1562892.8
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "TJZK57",
+          "netValue": 9431995.38
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "LXNR76",
+          "netValue": 3743190.35
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "RKCD86",
+          "netValue": 8470106.38
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "MHCV8",
+          "netValue": 7681058.6
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "MRJF39",
+          "netValue": 8248322.63
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "YZKB68",
+          "netValue": 377943.4
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "GBLW9",
+          "netValue": 9264225.59
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "MPUT69",
+          "netValue": 4730073
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "FXRL58",
+          "netValue": 6176443.07
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "LCJO7",
+          "netValue": 7517161.54
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "SZFL65",
+          "netValue": 4657036.04
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "ZNKH4",
+          "netValue": 6386700.18
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "PQVZ99",
+          "netValue": 4437389.36
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "VSWW6",
+          "netValue": 5183908.1
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "VMBZ97",
+          "netValue": 3397986.83
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "WHUW9",
+          "netValue": 174995.05
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "BBQE98",
+          "netValue": 7385869.28
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "QTPZ6",
+          "netValue": 284927.33
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "THJG36",
+          "netValue": 2907228.77
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "KVYH8",
+          "netValue": 3140195.58
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "WGCY33",
+          "netValue": 4759669.42
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "ADFC2",
+          "netValue": 9025088.14
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "OZAL1",
+          "netValue": 4178880.72
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "FOXZ22",
+          "netValue": 6125262.45
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "IRUV76",
+          "netValue": 3745422.62
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "RKRS1",
+          "netValue": 4304255.36
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "PBFB68",
+          "netValue": 5709315.39
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "ZHJG2",
+          "netValue": 8868572.76
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "WWWW74",
+          "netValue": 7167984.7
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "VTVP3",
+          "netValue": 1866561.44
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "DYAT23",
+          "netValue": 2815676.53
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "NQEA32",
+          "netValue": 1370496.56
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "FMZW41",
+          "netValue": 3713344.67
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "YVRN56",
+          "netValue": 2919416.47
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "LACB28",
+          "netValue": 5093006.05
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "YLPO39",
+          "netValue": 8293665.97
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "ONQM71",
+          "netValue": 6520889.18
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "XXXA26",
+          "netValue": 9660269.79
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "STGJ3",
+          "netValue": 6495580.33
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "HFTL78",
+          "netValue": 3465684.78
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "KDMS1",
+          "netValue": 9686691.25
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "GDCL3",
+          "netValue": 2003714.15
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "KQAN22",
+          "netValue": 1884366.8
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "TYPI3",
+          "netValue": 1520653.24
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "UAVF5",
+          "netValue": 5830431.51
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "CBXE1",
+          "netValue": 823797.14
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "QVQF1",
+          "netValue": 9793419.41
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "FPNO6",
+          "netValue": 5995190.16
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "KMKQ44",
+          "netValue": 5955094.86
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "TZFP75",
+          "netValue": 3596732.44
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "LOZR7",
+          "netValue": 7556675.03
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "AUWL71",
+          "netValue": 6519241.7
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "QPKE61",
+          "netValue": 6053201.64
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "PYRM86",
+          "netValue": 9117725.27
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "OJYU32",
+          "netValue": 6429155.03
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "SHBQ27",
+          "netValue": 1586467.56
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "MPLQ21",
+          "netValue": 4694318.96
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "AJVK1",
+          "netValue": 4459404.33
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "OVGF9",
+          "netValue": 3702326.9
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "EXRV3",
+          "netValue": 8921647.95
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "XRPV19",
+          "netValue": 1475618.13
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "MRTG3",
+          "netValue": 7218851.52
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "NKZN61",
+          "netValue": 7230998.01
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "EZCC4",
+          "netValue": 3844939.64
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "AEVJ9",
+          "netValue": 4591266.29
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "KZZD6",
+          "netValue": 7229482.74
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "NAHS19",
+          "netValue": 3878590.01
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "ZAFT32",
+          "netValue": 2062014.94
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "VDFR98",
+          "netValue": 3566418.85
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "YWVF32",
+          "netValue": 511116.54
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "ZCKU6",
+          "netValue": 6078601.14
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "VSLH3",
+          "netValue": 9512415.8
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "VQMV4",
+          "netValue": 5049744.94
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "LJET83",
+          "netValue": 3860158.18
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "DVSH3",
+          "netValue": 7107079.18
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "ZFIR83",
+          "netValue": 2504473.93
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "CMDU7",
+          "netValue": 1281746.43
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "QESE2",
+          "netValue": 4099858.9
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "YITH5",
+          "netValue": 8453708.93
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "YAPK7",
+          "netValue": 8695776.17
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "QCQW35",
+          "netValue": 5382636.69
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "YWHS7",
+          "netValue": 7208939.18
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "THGE9",
+          "netValue": 2419423.91
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "MVBG28",
+          "netValue": 7599132.19
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "WUKV6",
+          "netValue": 7385094.7
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "VLZO33",
+          "netValue": 3133209.93
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "EIWI45",
+          "netValue": 6070549.68
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "HVMU36",
+          "netValue": 1377388.58
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "DFOL38",
+          "netValue": 689347.03
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "XVEE7",
+          "netValue": 5820187.35
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KHXV69",
+          "netValue": 7275969.09
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "RPBQ4",
+          "netValue": 1036813.27
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "AARM21",
+          "netValue": 6679076.45
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "ZFUV6",
+          "netValue": 1718307.37
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "MPWV3",
+          "netValue": 3183948.42
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "SLKF91",
+          "netValue": 2835887.08
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "DXGQ88",
+          "netValue": 2169478.09
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "NKIG9",
+          "netValue": 1032042.76
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "KBXQ1",
+          "netValue": 8146675.78
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KIAP8",
+          "netValue": 4169571.59
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "EGSS53",
+          "netValue": 3478402.15
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "IDPA1",
+          "netValue": 1767519.5
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "RIIO93",
+          "netValue": 2133800.59
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "DYUL5",
+          "netValue": 8833630.74
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "RQOD9",
+          "netValue": 855986.93
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "SCMD1",
+          "netValue": 6615161.84
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "GGBR4",
+          "netValue": 6042127.93
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "PQMO3",
+          "netValue": 3961227.52
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "OFFL54",
+          "netValue": 4296577.12
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "TZDK63",
+          "netValue": 9892720.14
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "SCXJ2",
+          "netValue": 8943429.75
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "ZRJM7",
+          "netValue": 9527757.85
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "VXJZ7",
+          "netValue": 9660497.26
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "HIHB62",
+          "netValue": 2723338.33
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "RKZW18",
+          "netValue": 3747695.4
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "GUHM88",
+          "netValue": 4209909.58
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "PGMM3",
+          "netValue": 5437833.45
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "IQLP14",
+          "netValue": 296043.6
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "SWFM39",
+          "netValue": 6841608.7
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "PRGK92",
+          "netValue": 7452467.88
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "LUCU41",
+          "netValue": 5273351.62
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "NCIT2",
+          "netValue": 5290466.21
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "LCCX4",
+          "netValue": 4443728.42
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "TGTE93",
+          "netValue": 1061785.31
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "BZKC36",
+          "netValue": 9120210.75
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "WPHC27",
+          "netValue": 822941.12
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "DSQZ9",
+          "netValue": 1567562.01
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "ESUM7",
+          "netValue": 2132725.01
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "QSQU37",
+          "netValue": 6388908.8
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "EWWD8",
+          "netValue": 6295526.07
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "WUCO4",
+          "netValue": 8729310.07
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "CSEH29",
+          "netValue": 9804006.11
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "ADIF26",
+          "netValue": 3315422.74
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "IUVE7",
+          "netValue": 5414182.26
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "TCXX39",
+          "netValue": 3374423.49
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "EJUZ5",
+          "netValue": 2612494.46
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "GRUX76",
+          "netValue": 4384565.44
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "QQKE1",
+          "netValue": 2533537.85
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "OTEM68",
+          "netValue": 9875662.79
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "OESA2",
+          "netValue": 2009604.2
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "XCJE5",
+          "netValue": 9750433.56
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "EIBV5",
+          "netValue": 8948689.64
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "YRKK2",
+          "netValue": 4318094.41
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "MZWL9",
+          "netValue": 6772900.48
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "JEZL5",
+          "netValue": 9184669.07
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "CBKD8",
+          "netValue": 4364713.15
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "QACR2",
+          "netValue": 4002781.18
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "CVBJ2",
+          "netValue": 4786471.88
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "HDXY59",
+          "netValue": 5167333.37
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "MXRW91",
+          "netValue": 9254010.03
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "TDUV32",
+          "netValue": 2013186.26
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "EPBD39",
+          "netValue": 7178047.1
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "OUXK3",
+          "netValue": 4852372.43
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "UYKB4",
+          "netValue": 8192989.2
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "HHWN8",
+          "netValue": 4396471.54
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "THMB7",
+          "netValue": 3118383.17
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "IRRF44",
+          "netValue": 6262002.12
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "DVRI28",
+          "netValue": 7364100.76
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "VVUI23",
+          "netValue": 5397719.3
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "IIJB37",
+          "netValue": 7427181.37
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "SKSC98",
+          "netValue": 203607.17
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "TMEZ57",
+          "netValue": 7730651.31
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "JTUB67",
+          "netValue": 3898810.84
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "ZCQX94",
+          "netValue": 1081271.12
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "EOEL1",
+          "netValue": 9582161.59
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "JXMP16",
+          "netValue": 5837733.76
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "UJMZ5",
+          "netValue": 6305510.49
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "UALA1",
+          "netValue": 1920271.75
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "VOUG3",
+          "netValue": 7063954.41
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "REMK8",
+          "netValue": 1373479.67
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "ZZTT8",
+          "netValue": 4165437.23
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "SPEI5",
+          "netValue": 8874533.89
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "NTDB9",
+          "netValue": 2242434.47
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "BNFJ5",
+          "netValue": 4523738.45
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "TRCH2",
+          "netValue": 7388828.65
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "WJEG3",
+          "netValue": 5257512.64
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "LHCT8",
+          "netValue": 2904295.24
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "OXBB1",
+          "netValue": 5424284.09
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "QZIG86",
+          "netValue": 5595834.2
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "GOSK4",
+          "netValue": 8143647.95
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "PHIZ15",
+          "netValue": 458035.3
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "BWAS79",
+          "netValue": 9435677.74
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "TTVM66",
+          "netValue": 191595.91
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "ZZRW64",
+          "netValue": 126622.04
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "SVPA8",
+          "netValue": 2832600.52
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "SZFR41",
+          "netValue": 6710188.88
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "KVTH92",
+          "netValue": 5806670.4
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "EKLY37",
+          "netValue": 5177023.25
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "SJOB85",
+          "netValue": 8651287.49
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "FLCG2",
+          "netValue": 1112279.76
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "OWMQ2",
+          "netValue": 860251.72
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "FYMI94",
+          "netValue": 7294064.05
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "TUTB4",
+          "netValue": 2869498.12
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "SCMC44",
+          "netValue": 4848792.62
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "VSFF6",
+          "netValue": 8389881.39
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "IZAT66",
+          "netValue": 907526.74
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "PFIG28",
+          "netValue": 3814743.62
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "FMSU2",
+          "netValue": 1700296.15
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "LPUQ1",
+          "netValue": 7145189.65
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "CGLY5",
+          "netValue": 4612249.21
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "TRJH3",
+          "netValue": 3267267.31
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "OQWJ7",
+          "netValue": 905241.24
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "QHMW83",
+          "netValue": 5026760.21
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "BWZQ56",
+          "netValue": 9153563.15
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "ULBN99",
+          "netValue": 9320128.82
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "AARV7",
+          "netValue": 181407.6
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "TMFA5",
+          "netValue": 3413368.25
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "ASPI1",
+          "netValue": 9244764.12
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "VAOI3",
+          "netValue": 8112120.08
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "TCBA1",
+          "netValue": 7587102.6
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "FRAJ12",
+          "netValue": 8466276.85
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "GXSO4",
+          "netValue": 8599239.92
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "BNEV52",
+          "netValue": 9496168.69
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "ZPBQ9",
+          "netValue": 2968984.16
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "LOQJ21",
+          "netValue": 3096141.87
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "WAPV21",
+          "netValue": 7181107.39
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "ZCVA7",
+          "netValue": 2687539.99
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KXTG3",
+          "netValue": 1780302.44
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "FKEG8",
+          "netValue": 7215866.79
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KUNL2",
+          "netValue": 3618160.52
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "VPHA39",
+          "netValue": 2529806.06
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "POEH53",
+          "netValue": 274708.23
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "TNOH9",
+          "netValue": 305073.03
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "JKLS56",
+          "netValue": 8839485.15
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "NGGI42",
+          "netValue": 1732689.93
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "MOXZ14",
+          "netValue": 9545622.23
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "EHCF66",
+          "netValue": 3560132.99
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "AELV1",
+          "netValue": 7608167.66
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "LCPW82",
+          "netValue": 490572.47
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "PJWG53",
+          "netValue": 6713614.54
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "XZPA87",
+          "netValue": 8355070.42
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "CTAK1",
+          "netValue": 6742975.13
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "MPPG6",
+          "netValue": 1250819.61
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "JHKX45",
+          "netValue": 4099593.87
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "TIIP4",
+          "netValue": 8493821.77
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "OEIM5",
+          "netValue": 6629160.92
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "EQJB8",
+          "netValue": 6112596.82
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "WMZR2",
+          "netValue": 5126475.21
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "JBAW29",
+          "netValue": 6008739.58
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "MJVQ32",
+          "netValue": 2479202.93
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "EWLL2",
+          "netValue": 2774816.27
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "LILU3",
+          "netValue": 7924657.85
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "UUGV23",
+          "netValue": 8145925.41
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "HCHA6",
+          "netValue": 6083570.4
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "PLQJ51",
+          "netValue": 4174437.12
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "BMDO8",
+          "netValue": 7084469.35
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "QGOB5",
+          "netValue": 2624188.95
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "HKLR51",
+          "netValue": 5928441.26
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "PYWY15",
+          "netValue": 8994849.7
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "EADD59",
+          "netValue": 5693896.33
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "JUGQ1",
+          "netValue": 7027737.34
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "RELM22",
+          "netValue": 1394905.5
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "RKQO3",
+          "netValue": 7900397.72
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "INYL4",
+          "netValue": 1653814.48
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "XMTO15",
+          "netValue": 1283825.14
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "XINA9",
+          "netValue": 5025382.04
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "HUAB35",
+          "netValue": 5582794.25
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "LHJQ51",
+          "netValue": 1168566.36
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "SKEL43",
+          "netValue": 9173734.44
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "IZPU9",
+          "netValue": 6624418.86
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "NJPK6",
+          "netValue": 2935640.61
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "IBJD1",
+          "netValue": 4822172.38
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "TYCV63",
+          "netValue": 5050762.55
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "OLJV8",
+          "netValue": 6742540.97
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "ATTL8",
+          "netValue": 2443116.46
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "MPYA8",
+          "netValue": 7019511.07
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "BLFR68",
+          "netValue": 652291.66
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "UGBN7",
+          "netValue": 6406362.58
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "HXHZ9",
+          "netValue": 9690053.14
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "CJQC2",
+          "netValue": 7140685.19
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "VCMO39",
+          "netValue": 9558105.3
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "EXFK8",
+          "netValue": 5981294.87
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "HDXK86",
+          "netValue": 8302684.46
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "YIJD7",
+          "netValue": 3589192.76
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "IFPL7",
+          "netValue": 2236299.76
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "HCXF53",
+          "netValue": 198849.14
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "BFYY6",
+          "netValue": 1273618.61
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "EEBL76",
+          "netValue": 8911485.2
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "MLBJ22",
+          "netValue": 3974181.19
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "CQWG5",
+          "netValue": 4958685.51
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "IEGM42",
+          "netValue": 1890698.7
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "DWCM6",
+          "netValue": 9944634.48
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "HVFR25",
+          "netValue": 7128657.74
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "JAFR27",
+          "netValue": 8598423.21
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "NGHG66",
+          "netValue": 5145551.25
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "DXMH3",
+          "netValue": 6439050.28
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "KNLQ3",
+          "netValue": 4168542.86
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "WNRC4",
+          "netValue": 3418858.45
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "NSGJ77",
+          "netValue": 6318518.27
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "AOGB1",
+          "netValue": 5943330.23
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "RYHI83",
+          "netValue": 6737692.26
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "ULNS5",
+          "netValue": 9752904.37
+        }
+      ]
+    },
+    {
+      "clientId": "3",
+      "companyId": "6de54178-883d-4861-8d89-14f3a556fb0a",
+      "date": "2023-07-02T00:00:00.000Z",
+      "securities": [
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "TLBR55",
+          "netValue": 4651768.31
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "XHTP9",
+          "netValue": 9644566.6
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "YXZN16",
+          "netValue": 6289677.68
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "LXCI7",
+          "netValue": 6338798.51
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "BYZD34",
+          "netValue": 9255336.98
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "GIHM5",
+          "netValue": 8140528.52
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "KWSR9",
+          "netValue": 2995014.75
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "KFBA1",
+          "netValue": 2132637.44
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "YPDH9",
+          "netValue": 7366265.47
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "YAYE7",
+          "netValue": 7354986.84
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "NWWN92",
+          "netValue": 8167030.64
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "GDVG55",
+          "netValue": 7445423.91
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "QTPV51",
+          "netValue": 4491654.88
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "DKLA99",
+          "netValue": 4891879.78
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "BFJC4",
+          "netValue": 4569233.77
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "CHOZ8",
+          "netValue": 2843537.64
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "CVXW66",
+          "netValue": 5456662.1
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "PQDP4",
+          "netValue": 8937239.69
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "MAMP93",
+          "netValue": 4658129.74
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "GLKW9",
+          "netValue": 2335735.09
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "RLHX49",
+          "netValue": 9566874.7
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "GIKW23",
+          "netValue": 4614513.59
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "IQCE17",
+          "netValue": 6412211.09
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "MMJF55",
+          "netValue": 711143.27
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "DVGX88",
+          "netValue": 5364195.17
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "XMAY6",
+          "netValue": 2735725.5
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "JDSH55",
+          "netValue": 7529957.87
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "CHRO52",
+          "netValue": 7159267.7
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "JEIO7",
+          "netValue": 1122762.55
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "NKHC6",
+          "netValue": 5785386.27
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "BEOI9",
+          "netValue": 9352586.21
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "NZZS6",
+          "netValue": 8238669.58
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "JFMU5",
+          "netValue": 8195804.81
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "TPPA1",
+          "netValue": 7546261.29
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "RJNL51",
+          "netValue": 2500730.57
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "MZCZ69",
+          "netValue": 7678734.16
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "FDXK4",
+          "netValue": 9945245.92
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "BANE44",
+          "netValue": 7581154.19
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "MLQK65",
+          "netValue": 8192336.88
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "KLLX18",
+          "netValue": 4583896.71
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "UEVJ74",
+          "netValue": 8046762.39
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "HPDK3",
+          "netValue": 6630705.36
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "TDRW2",
+          "netValue": 3803708.48
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "ANWN17",
+          "netValue": 3038224.3
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "AOBJ5",
+          "netValue": 5414716.3
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KBKH7",
+          "netValue": 6141531.65
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "VBNZ58",
+          "netValue": 5791755.87
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "BRRO42",
+          "netValue": 1288251.61
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "WGKX68",
+          "netValue": 4585205.91
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "BAPI77",
+          "netValue": 1033924.61
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "XLQM3",
+          "netValue": 2005851.77
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "QLXD18",
+          "netValue": 456326.13
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "SJJS4",
+          "netValue": 6330958.53
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "WFFP88",
+          "netValue": 2703612.81
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "DRXB72",
+          "netValue": 9614757.34
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "XWDD8",
+          "netValue": 5664447.76
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "DCTE6",
+          "netValue": 2181547.13
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "CXTD52",
+          "netValue": 9395313.91
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "GBUJ5",
+          "netValue": 5390609.08
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "HRIN88",
+          "netValue": 885930.32
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "FSMK45",
+          "netValue": 9891481.38
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "IKES5",
+          "netValue": 3958565.42
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "QZVZ7",
+          "netValue": 2706336.96
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "YDFM54",
+          "netValue": 9867090.82
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "XVSO7",
+          "netValue": 5773309.96
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "UZOG88",
+          "netValue": 4031144.37
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "RDMX1",
+          "netValue": 2645354.32
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "BZBG87",
+          "netValue": 6243460.09
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "TJIU6",
+          "netValue": 4216963.7
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "JRYZ2",
+          "netValue": 8357008.5
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "IOWG25",
+          "netValue": 2627861.19
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "REVU43",
+          "netValue": 1005170.79
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "QKTV41",
+          "netValue": 7219430.78
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "IPDP82",
+          "netValue": 3133881.81
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "VHAD6",
+          "netValue": 5813355.67
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "MWVN3",
+          "netValue": 7283969.42
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "DCSG3",
+          "netValue": 4023009.84
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "BZLZ9",
+          "netValue": 5846580.04
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "HRGX24",
+          "netValue": 1899583.95
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "KGFP7",
+          "netValue": 1302658.89
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "MTIG13",
+          "netValue": 5191740.04
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KCQW6",
+          "netValue": 6125023.63
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "FEMQ8",
+          "netValue": 3680261.52
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "CTHN7",
+          "netValue": 9492469
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "SYPH5",
+          "netValue": 792972.39
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "OOXU88",
+          "netValue": 8884629.42
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "YDFC11",
+          "netValue": 6410818.88
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "DCXQ92",
+          "netValue": 606211.13
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "LVYU89",
+          "netValue": 8545457.24
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "LWDC34",
+          "netValue": 5945594.24
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "MSTW52",
+          "netValue": 7735428.53
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "FEMZ6",
+          "netValue": 8971409.29
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "ZRIQ9",
+          "netValue": 5903009.51
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "YEUI39",
+          "netValue": 8488480.39
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "IUKD83",
+          "netValue": 8043641.69
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "CCOS1",
+          "netValue": 2626471.93
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "SEPU5",
+          "netValue": 7885948.49
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "UBZY48",
+          "netValue": 2454291.63
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "AQNN72",
+          "netValue": 2918151.6
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "AUEU8",
+          "netValue": 4663475.93
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "VJDS83",
+          "netValue": 176061.23
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "XHTX2",
+          "netValue": 6009011.7
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "UDCF3",
+          "netValue": 9794205.74
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "AVCT3",
+          "netValue": 8657275.84
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "WLNW4",
+          "netValue": 5919410.23
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "GFJH8",
+          "netValue": 5339586.6
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "YBFO64",
+          "netValue": 282926.14
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "HVRM4",
+          "netValue": 1511198.81
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "AYTF9",
+          "netValue": 3947437.74
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "YMWK51",
+          "netValue": 5879219.95
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "FZRD26",
+          "netValue": 6643513.69
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "WJFY97",
+          "netValue": 7580646.99
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "RKOO4",
+          "netValue": 5241845.48
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "QOUP51",
+          "netValue": 2931581.72
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "OKMO7",
+          "netValue": 1976306.62
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "PYAX53",
+          "netValue": 2234130.22
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "KGDQ12",
+          "netValue": 2156083.22
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "GYXD93",
+          "netValue": 5087441.99
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "DJAL73",
+          "netValue": 2945940.97
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "ZRNS13",
+          "netValue": 806555.64
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "VDDG3",
+          "netValue": 6023705.18
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "TBYR47",
+          "netValue": 394230.59
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "DPCW43",
+          "netValue": 6475631.62
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "UFGG1",
+          "netValue": 2784414.01
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "FIPH94",
+          "netValue": 1926665.91
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "CXZD9",
+          "netValue": 2157441.33
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "UNEG3",
+          "netValue": 864416.59
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "QHFR1",
+          "netValue": 7224045.35
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "SQZV55",
+          "netValue": 4908912.88
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "BUTS66",
+          "netValue": 4909884.86
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "MKSX53",
+          "netValue": 7181051.78
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "QOUF4",
+          "netValue": 8340793.01
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "SUHA26",
+          "netValue": 3746788.93
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "WSCU5",
+          "netValue": 1746945.33
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "JXXQ3",
+          "netValue": 9974030.75
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "CJSG19",
+          "netValue": 6325669.39
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "ATYH6",
+          "netValue": 8536761.34
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "TDTA91",
+          "netValue": 3979969.76
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "CCCO8",
+          "netValue": 371276.36
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "LHCR63",
+          "netValue": 1187056.45
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "IPQA6",
+          "netValue": 384544.5
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "TZQO5",
+          "netValue": 3938385.39
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "KHIE5",
+          "netValue": 2073306.03
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "AWJM19",
+          "netValue": 2304624.34
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "FVEJ85",
+          "netValue": 6668515.73
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "NAIS7",
+          "netValue": 6094672.66
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "OQWB22",
+          "netValue": 458054.29
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "ZGLU4",
+          "netValue": 2367725
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "AQSE1",
+          "netValue": 3035859.54
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "AWWJ52",
+          "netValue": 6274533.8
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "NDZC9",
+          "netValue": 2341416.59
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "BDEF9",
+          "netValue": 5443964.22
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "NQYO14",
+          "netValue": 3054667.65
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "SVIT69",
+          "netValue": 5105731.42
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "JBXX35",
+          "netValue": 3188873.42
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "PYUP9",
+          "netValue": 1527141.61
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "USSO8",
+          "netValue": 1553180.75
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "BDHF7",
+          "netValue": 7792236.19
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "LLDQ24",
+          "netValue": 3287588.88
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "RPXL25",
+          "netValue": 6664937.22
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "MJZB77",
+          "netValue": 7237613.09
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "SKVA2",
+          "netValue": 5997890.47
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "TVGY12",
+          "netValue": 9254638.98
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "JQTE93",
+          "netValue": 4886632.95
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "DZYI81",
+          "netValue": 1055569.08
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "TTIV98",
+          "netValue": 3838587.78
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "IYKC53",
+          "netValue": 558571.29
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "GTJS37",
+          "netValue": 4363206
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "ZDMC1",
+          "netValue": 290000.32
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "YAHT1",
+          "netValue": 1650326.19
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "UXIV75",
+          "netValue": 3808471.37
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "ABNP3",
+          "netValue": 1001617.25
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "TYRC53",
+          "netValue": 407441.58
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "LJZS4",
+          "netValue": 7751771.7
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "UQVW7",
+          "netValue": 7500308.71
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "GKJJ42",
+          "netValue": 8275089.48
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "DJRZ2",
+          "netValue": 1851723.94
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "WENU8",
+          "netValue": 5547612.58
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "SBMF85",
+          "netValue": 3982569.83
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "RHEC6",
+          "netValue": 3925598.93
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "JNFT48",
+          "netValue": 8474528.16
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "WLIS5",
+          "netValue": 333118.28
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "ZKJC9",
+          "netValue": 4015467.67
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "XMBG2",
+          "netValue": 1418757.69
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "YOUV4",
+          "netValue": 973162.53
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "RIDF7",
+          "netValue": 128901.61
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "TAKS9",
+          "netValue": 2378199.23
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "XATI89",
+          "netValue": 4431941.03
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "MXLI4",
+          "netValue": 8637495.17
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "SSWK54",
+          "netValue": 7528380.28
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "MJZC8",
+          "netValue": 8424899.77
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "QQIU7",
+          "netValue": 7796866.35
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "BRSO9",
+          "netValue": 3056373.77
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "EUCE66",
+          "netValue": 2722298.5
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "NNXB6",
+          "netValue": 9463111.31
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "HAFM22",
+          "netValue": 6195271.01
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "ANJP4",
+          "netValue": 3050651.16
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "XUJT6",
+          "netValue": 7224795.17
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "IWWQ44",
+          "netValue": 8300898.48
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "VRQG47",
+          "netValue": 1040883.38
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "ZSGC1",
+          "netValue": 1638878.26
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "QANV7",
+          "netValue": 3268321.47
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "SGGQ66",
+          "netValue": 8019409.68
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "VECD66",
+          "netValue": 9073782.04
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "ASZR4",
+          "netValue": 3617239.71
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "XSRO9",
+          "netValue": 3300804.93
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "IQTD7",
+          "netValue": 6460555.56
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KXLW8",
+          "netValue": 2179169.44
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "SABI62",
+          "netValue": 8669436.57
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "WLNF15",
+          "netValue": 8533742.01
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "WMOX2",
+          "netValue": 8354372.99
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "FABT4",
+          "netValue": 3852901.94
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "GUWG3",
+          "netValue": 1950942.81
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KNOS81",
+          "netValue": 5626401.31
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "MEYI8",
+          "netValue": 7858471.41
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "AMJQ1",
+          "netValue": 1678463.01
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "GHDN64",
+          "netValue": 7634301.12
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "SUHT8",
+          "netValue": 8593106.3
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "CTQR21",
+          "netValue": 4060015.4
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "RXNQ12",
+          "netValue": 7218740.42
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "XEIW98",
+          "netValue": 9758090.77
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "QYHI95",
+          "netValue": 5223723.07
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "ULQQ9",
+          "netValue": 5432335.48
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "JMIO9",
+          "netValue": 525376.36
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "HNEL44",
+          "netValue": 239767.54
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "JVJB7",
+          "netValue": 6953350.22
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "GIAC2",
+          "netValue": 1228194.52
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "BUBW64",
+          "netValue": 1846822.05
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "BJRS1",
+          "netValue": 2023938.98
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "OWDP7",
+          "netValue": 182745.13
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "CUVM2",
+          "netValue": 9397247.35
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "TCCF6",
+          "netValue": 5631142.6
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "RUNM24",
+          "netValue": 6352078.3
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "MAJF8",
+          "netValue": 6700821.74
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "HWDR5",
+          "netValue": 4351243.23
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "NNEP3",
+          "netValue": 1358455.39
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "TJFK83",
+          "netValue": 3199719.55
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "XHIQ45",
+          "netValue": 5763833.27
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "OCXE1",
+          "netValue": 5228671.47
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "QGOC38",
+          "netValue": 693108.76
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "CLUJ41",
+          "netValue": 6279390.64
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "OOCW82",
+          "netValue": 2881705.19
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "XIFA91",
+          "netValue": 5444054.54
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "YNGA15",
+          "netValue": 109142.23
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "HYFS45",
+          "netValue": 3767173.97
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "QQXM67",
+          "netValue": 8970262.48
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "HEGT34",
+          "netValue": 5509986.79
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "DARR72",
+          "netValue": 3410385.88
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "OISC16",
+          "netValue": 2366191.57
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "SGUN2",
+          "netValue": 3047412.22
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "KESU25",
+          "netValue": 1383579.64
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "CNNB3",
+          "netValue": 3484024.98
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "OTZC7",
+          "netValue": 7831141.63
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "GGYW5",
+          "netValue": 1813912.78
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KWNG28",
+          "netValue": 8362739.74
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "YHKV7",
+          "netValue": 8483628.3
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "FDSF4",
+          "netValue": 5980556.51
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "OGYX76",
+          "netValue": 408850.04
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "ANCB5",
+          "netValue": 4764761.31
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "XMEY11",
+          "netValue": 960932.64
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "EXWL5",
+          "netValue": 6098457.75
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "LPGD81",
+          "netValue": 6519544.16
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "GCXN1",
+          "netValue": 1543550.15
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "UZVC96",
+          "netValue": 4350619.07
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "CEME3",
+          "netValue": 9199765.17
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "RSKP68",
+          "netValue": 1534459.82
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "EPJN5",
+          "netValue": 6147236.01
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "BULU33",
+          "netValue": 1455550.27
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "FWZO83",
+          "netValue": 4700272.18
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "BJLC6",
+          "netValue": 2149676.69
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "DFJS3",
+          "netValue": 9286979.4
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "KNWA9",
+          "netValue": 2352034.96
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "EUVZ7",
+          "netValue": 4168924.82
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "KXNA82",
+          "netValue": 6626875.72
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "MEAT19",
+          "netValue": 5926652.28
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "CUJC52",
+          "netValue": 5155369.94
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "KYTN52",
+          "netValue": 8899091.59
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "ZNIS8",
+          "netValue": 6105080.84
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "QFHZ7",
+          "netValue": 2978354.06
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "WNKM2",
+          "netValue": 908219.35
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "LLXM15",
+          "netValue": 427887.4
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "NUQJ6",
+          "netValue": 3247954.58
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "XFVX13",
+          "netValue": 8552060.35
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "VEAK4",
+          "netValue": 6262068.71
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "KXSA6",
+          "netValue": 4378913.87
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "EPVR6",
+          "netValue": 9899193.2
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "KJDN61",
+          "netValue": 1957555.92
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "YTYD13",
+          "netValue": 4476075.68
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "BICO2",
+          "netValue": 9821478.86
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "APEX97",
+          "netValue": 3490299.21
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "ZRIC29",
+          "netValue": 846647.94
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "PJOG48",
+          "netValue": 3270883.92
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "WZQQ5",
+          "netValue": 1908583.44
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "LSRL63",
+          "netValue": 4111401.66
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "TCVH74",
+          "netValue": 7480366.61
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "NYNC8",
+          "netValue": 1836107.81
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "ZWSE52",
+          "netValue": 5474483.05
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "APLH58",
+          "netValue": 3778292.91
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "OOQA4",
+          "netValue": 1494500.19
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "RTXC37",
+          "netValue": 4219208
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "XZRA5",
+          "netValue": 280962.75
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "MUVX67",
+          "netValue": 1302667.3
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "ZMED58",
+          "netValue": 2180286.09
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "JZUQ52",
+          "netValue": 2905315.29
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "ODTE3",
+          "netValue": 9025096.05
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "DNBZ3",
+          "netValue": 1432539.54
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "WNCK27",
+          "netValue": 1994016.68
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "AQJM55",
+          "netValue": 8770953.8
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "HIBW47",
+          "netValue": 2339067.95
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "YKAX11",
+          "netValue": 824039.52
+        },
+        {
+          "class": "Alternativos",
+          "category": "Imobiliário",
+          "security": "LMFF41",
+          "netValue": 1658895.24
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "XBQB81",
+          "netValue": 3366869.58
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "SPOH17",
+          "netValue": 4800228.08
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "AMGW6",
+          "netValue": 2453279.71
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "ASKG2",
+          "netValue": 794912.15
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "UUWT1",
+          "netValue": 5747257.98
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "NMKW1",
+          "netValue": 8206814.14
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "QIRK8",
+          "netValue": 5263485.89
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "PXQF71",
+          "netValue": 503112.53
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "BXKB61",
+          "netValue": 1826874.31
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "DGSJ2",
+          "netValue": 5339489.04
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "YYAV54",
+          "netValue": 6097275.61
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "DRTO5",
+          "netValue": 5602527.43
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "QMZL46",
+          "netValue": 9590670.4
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "DDKG3",
+          "netValue": 5112765.86
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "CECO38",
+          "netValue": 4235703.39
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "DUDY3",
+          "netValue": 1796356.77
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "VNUF9",
+          "netValue": 6069783.98
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "PELB5",
+          "netValue": 5606063.58
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "ESJS99",
+          "netValue": 1028391.06
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "YQDB4",
+          "netValue": 8730578.96
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "AODR5",
+          "netValue": 5772336.84
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "FOLO5",
+          "netValue": 3013854.31
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "NGAG7",
+          "netValue": 9687579.1
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "JIQZ25",
+          "netValue": 8123500.76
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "HMFS3",
+          "netValue": 9862716
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "ACSX15",
+          "netValue": 7826357.74
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "PGXI8",
+          "netValue": 622891.72
+        },
+        {
+          "class": "Alternativos",
+          "category": "Venture Capital",
+          "security": "JJBW5",
+          "netValue": 4782651.46
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "MYYT57",
+          "netValue": 1067233.98
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pós Fixado",
+          "security": "RNLL49",
+          "netValue": 2691739.53
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "ADCO2",
+          "netValue": 6129181.13
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "TJZH2",
+          "netValue": 2442212.66
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "GKPW92",
+          "netValue": 3413384.07
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "IHCE4",
+          "netValue": 6525453.97
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "IVRH7",
+          "netValue": 5038058.25
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "MZTZ1",
+          "netValue": 5910874.48
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Ações / ETF",
+          "security": "JOEH8",
+          "netValue": 6390378.39
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "SCFN89",
+          "netValue": 7054889.09
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "IBLZ42",
+          "netValue": 3701360.75
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "HIIM79",
+          "netValue": 8008527.41
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Crédito Privado",
+          "security": "FNGA1",
+          "netValue": 8605922.9
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "UWUQ29",
+          "netValue": 7523669.76
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "QUPV72",
+          "netValue": 738107.57
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "QQVI9",
+          "netValue": 483532.37
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "AEPU6",
+          "netValue": 7321967.89
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "XSVW62",
+          "netValue": 1589830.3
+        },
+        {
+          "class": "Alternativos",
+          "category": "Commodities",
+          "security": "RRVJ7",
+          "netValue": 7123129.24
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Pré Fixado",
+          "security": "UJAK55",
+          "netValue": 839404.1
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "PLEK8",
+          "netValue": 677576.04
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "KDHN89",
+          "netValue": 5305677.3
+        },
+        {
+          "class": "Alternativos",
+          "category": "Crédito Estruturado",
+          "security": "YANJ89",
+          "netValue": 2295523.78
+        },
+        {
+          "class": "Renda Fixa",
+          "category": "Inflação",
+          "security": "OVPD9",
+          "netValue": 1128955.28
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "KKUO1",
+          "netValue": 5271052.96
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "JFWO1",
+          "netValue": 6752721.32
+        },
+        {
+          "class": "Alternativos",
+          "category": "Private Equity",
+          "security": "OJUZ3",
+          "netValue": 8290737.72
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "RGGW4",
+          "netValue": 2633678.11
+        },
+        {
+          "class": "Multimercado",
+          "category": "Multimercado",
+          "security": "SNFH97",
+          "netValue": 7549532.88
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "EUGK8",
+          "netValue": 3474068.63
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Only",
+          "security": "YUFF2",
+          "netValue": 9496871.95
+        },
+        {
+          "class": "Infraestrutura",
+          "category": "Infraestrutura",
+          "security": "PKEV2",
+          "netValue": 668306.1
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "YVJY2",
+          "netValue": 856019.41
+        },
+        {
+          "class": "Renda Variável",
+          "category": "Long Bias",
+          "security": "EKGO78",
+          "netValue": 9928251.46
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "FEZV84",
+          "netValue": 9130627.8
+        },
+        {
+          "class": "Imobiliário",
+          "category": "Imobiliário",
+          "security": "SITL17",
+          "netValue": 1154988.61
+        }
+      ],
+      "id": "ksOSdM_"
+    }
+  ]
+}
