@@ -1,6 +1,6 @@
 # Avaliação - Desenvolvedor Frontend SR
 
-De modo a avaliar a capacidade técnica do candidato, esta avaliação compreende o desenvolvimento de uma aplicação com as características listadas abaixo. A aplicação fará o consumo a partir de servidores _mock_ (`json-server-auth`), e os arquivos .json necessários para criar a "base de dados" estão na pasta _database_ deste repositório. Há também uma documentação parcial dos endpoints disponíveis na pasta _api_queries_insomnia_, que pode ser importada para o Insomnia.
+De modo a avaliar a capacidade técnica do candidato, esta avaliação compreende o desenvolvimento de uma aplicação com as características listadas abaixo. A aplicação fará o consumo a partir de servidores _mock_ (`json-server-auth`), e o arquivo que cria a "base de dados" é o db.json deste repositório. Há também uma documentação parcial dos endpoints disponíveis na pasta _api_queries_insomnia_, que pode ser importada para o Insomnia.
 
 Ao desenvolver a aplicação, alguns detalhes serão necessários:
 
